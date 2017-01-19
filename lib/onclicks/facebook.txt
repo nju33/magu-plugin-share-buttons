@@ -1,0 +1,5 @@
+open(
+  'http://www.facebook.com/sharer.php?u=' + location.href + '&amp;t=' + encodeURI(document.title),
+  'fbwindow',
+  'width=550,height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'
+);return false
